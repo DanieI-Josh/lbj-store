@@ -68,8 +68,16 @@ function App() {
         />
       )}
       {pagina === "sobre" && <Sobre />}
+
+      <footer className="text-center mt-5 py-3" style={{ borderTop: "1px solid #333" }}>
+      <p style={{ margin: 0, color: "#aaa", fontSize: "14px" }}>
+        Daniel Josh Santos • 2026 • ADS1241 - DESENVOLVIMENTO DE SOFTWARE WEB
+      </p>
+      </footer>
+
     </div>
-  );
+    );
+    
 }
 
 export default App;
