@@ -1,4 +1,4 @@
-# LBJ Store Manager 🏀
+# LBJ Store Manager 
 
 Projeto desenvolvido para a disciplina **ADS1241 - Desenvolvimento de Software Web**.
 
@@ -6,7 +6,7 @@ O sistema simula uma loja temática inspirada em LeBron James, permitindo o gere
 
 ---
 
-## 📌 Arquitetura do Projeto
+## Arquitetura do Projeto
 
 O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma organização baseada em componentes para garantir melhor separação de responsabilidades e reutilização de código.
 
@@ -26,7 +26,7 @@ O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma org
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Cadastro de produtos com imagem
 - Listagem de produtos em formato de cards
@@ -38,7 +38,7 @@ O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma org
 
 ---
 
-## 🎨 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - React
 - TypeScript
@@ -47,7 +47,7 @@ O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma org
 
 ---
 
-## 🖼️ Recursos Visuais
+## Recursos Visuais
 
 - Tema escuro inspirado nas cores do Los Angeles Lakers
 - Destaques em amarelo (Lakers)
@@ -55,14 +55,8 @@ O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma org
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Daniel Josh Santos**  
 ADS1241 - Desenvolvimento de Software Web  
 Professor: Alexandre Almeida
-
----
-
-## 📹 Vídeo Explicativo
-
-(O link do vídeo será adicionado aqui)
