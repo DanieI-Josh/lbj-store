@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# LBJ Store Manager 🏀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para a disciplina **ADS1241 - Desenvolvimento de Software Web**.
 
-Currently, two official plugins are available:
+O sistema simula uma loja temática inspirada em LeBron James, permitindo o gerenciamento de produtos com funcionalidades de cadastro, venda e visualização de estatísticas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Arquitetura do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi desenvolvido utilizando **React com TypeScript**, seguindo uma organização baseada em componentes para garantir melhor separação de responsabilidades e reutilização de código.
 
-## Expanding the ESLint configuration
+### Estrutura:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **App.tsx**  
+  Responsável pelo controle geral da aplicação, gerenciamento de estado global e navegação entre páginas.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **components/**  
+  Contém os componentes principais:
+  - `Dashboard.tsx`: exibição de métricas (total, disponíveis e vendidos)
+  - `Produtos.tsx`: gerenciamento de produtos (adicionar, vender, remover, filtrar)
+  - `Sobre.tsx`: informações sobre LeBron James
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **types/**  
+  Define a tipagem dos dados, garantindo maior segurança e organização no código.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Funcionalidades
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Cadastro de produtos com imagem
+- Listagem de produtos em formato de cards
+- Venda de produtos (com atualização automática)
+- Remoção de produtos com confirmação
+- Filtro por status (todos, disponíveis, vendidos)
+- Dashboard com estatísticas em tempo real
+- Página informativa sobre LeBron James
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🎨 Tecnologias Utilizadas
+
+- React
+- TypeScript
+- Vite
+- Bootstrap
+
+---
+
+## 🖼️ Recursos Visuais
+
+- Tema escuro inspirado nas cores do Los Angeles Lakers
+- Destaques em amarelo (Lakers)
+- Imagens locais armazenadas na pasta `/public`
+
+---
+
+## 👨‍💻 Autor
+
+**Daniel Josh Santos**  
+ADS1241 - Desenvolvimento de Software Web  
+Professor: Alexandre Almeida
+
+---
+
+## 📹 Vídeo Explicativo
+
+(O link do vídeo será adicionado aqui)
